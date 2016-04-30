@@ -1,0 +1,51 @@
+{
+  "information": {
+    "id": "aerial",
+    "name": "Aerial",
+    "description": "Minimal personal site",
+    "preview_image_path": "/preview.png"
+  },
+  "fields": [
+  {
+    "id": "fullName",
+    "label": "Full Name",
+    "type": "text",
+    "placeholder": "Your Name"
+  },
+  {
+    "id":"tagLine",
+    "label": "Tag Line",
+    "type": "text",
+    "placeholder": "Tag Line"
+  },
+  {
+    "id": "emailAddress",
+    "label": "Email Address",
+    "type": "email",
+    "placeholder": "testemail@testemail.com"
+  },
+  {
+    "id": "facebookLink",
+    "label": "Facebook",
+    "type": "url",
+    "placeholder": "https://www.facebook.com/username"
+  },
+  {
+    "id": "twitterLink",
+    "label": "Twitter",
+    "type": "url",
+    "placeholder": "https://twitter.com/username"
+  },
+  {
+    "id": "linkedinLink",
+    "label": "LinkedIn",
+    "type": "url",
+    "placeholder": "https://www.linkedin.com/in/username"
+  },
+  {
+    "id": "google_analytics_key",
+    "label": "Google Analytics Tracker ID",
+    "type": "text",
+    "placeholder": "UA-34343-3"
+  }]
+}
