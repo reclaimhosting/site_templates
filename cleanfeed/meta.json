@@ -19,14 +19,14 @@
     "placeholder": "Your Site Title"
   },
   {
-    "id":"tagLine",
+    "id": "tagLine",
     "label": "Tag Line",
     "type": "text",
     "placeholder": "Tag Line"
   },
   {
-	"id":"siteUrl",
-	"label":"RSS Feed"
+	"id": "siteUrl",
+	"label":"RSS Feed",
 	"type": "url",
 	"placeholder": "http://myblog.wordpress.com"
   },
