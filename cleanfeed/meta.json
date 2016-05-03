@@ -26,9 +26,9 @@
   },
   {
 	"id": "siteUrl",
-	"label":"RSS Feed",
+	"label":"RSS Feed (must be valid feed URL)",
 	"type": "url",
-	"placeholder": "http://myblog.wordpress.com"
+	"placeholder": "http://myblog.wordpress.com/feed"
   },
   {
     "id": "emailAddress",
