@@ -14,3 +14,5 @@ git clone https://github.com/reclaimhosting/site_templates.git /home/username/va
 
 ###Credits
 * [HTML5 UP](http://html5up.net/)
+* [Start Bootstrap](http://startbootstrap.com/)
+* [Feed2JS](https://feed2js.org/)
