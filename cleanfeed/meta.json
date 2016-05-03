@@ -31,6 +31,12 @@
 	"placeholder": "http://myblog.wordpress.com/feed"
   },
   {
+    "id": "feedItemNumber",
+    "label": "Number of Posts (max limited by RSS Feed)",
+    "type": "number",
+    "placeholder": "5"
+  },
+  {
     "id": "emailAddress",
     "label": "Email Address",
     "type": "email",
