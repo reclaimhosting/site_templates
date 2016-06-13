@@ -56,10 +56,10 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-                            <script language="JavaScript" src="feed/feed2js.php?src=[% siteUrl | html_entity %][% IF feedItemNumber.length %]&num=[% feedItemNumber %][% END %]&au=y&date=y&utf=y&html=a"  charset="UTF-8" type="text/javascript"></script>
+                            <script language="JavaScript" src="feeds/feed2js.php?src=[% siteUrl | html_entity %][% IF feedItemNumber.length %]&num=[% feedItemNumber %][% END %]&au=y&date=y&utf=y&html=a"  charset="UTF-8" type="text/javascript"></script>
 
 <noscript>
-<a href="feed/feed2js.php?src=[% siteUrl | html_entity %][% IF feedItemNumber.length %]&num=[% feedItemNumber %][% END %]&au=y&date=y&utf=y&html=y">View RSS feed</a>
+<a href="feeds/feed2js.php?src=[% siteUrl | html_entity %][% IF feedItemNumber.length %]&num=[% feedItemNumber %][% END %]&au=y&date=y&utf=y&html=y">View RSS feed</a>
 </noscript>
                 <ul class="pager">
                     <li >
