@@ -1,0 +1,27 @@
+body {
+    background: url('../../assets/img/splash4.jpg');
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:white;
+}
+
+
+.jumbotron {
+
+    text-align: center;
+    background-color: transparent !important;
+}
+
+
+.row {
+
+    text-align: center;
+
+}
+
+.footer {
+
+    text-align: center;
+}

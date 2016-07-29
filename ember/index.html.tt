@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    [% IF organizationName.length %]<title>[% organizationName | html %]</title>[% END %]
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='assets/css/custom.css' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <div class="col-xs-12">
+            [% IF organizationName.length %]<h1>[% organizationName | html %]</h1>[% END %]
+            [% IF contactName.length %]<h2>[% contactName | html %]</h2>[% END %]
+            <br />
+        </div>
+        <div class="col-xs-12">
+            <h4>
+                [% IF addr.length %][% addr | html %][% END %]
+                [% IF city.length %][% city | html %][% END %],
+                [% IF state.length %][% state | html %][% END %],
+                [% IF zip.length %][% zip | html %][% END %]
+            </h4>
+        </div>
+
+    </div>
+</div>
+
+     <div class="bottom-row">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4 bottom-row">
+
+            <h3> <u>Join us at the following times:</u> </h3>
+            <br />
+            [% IF service1.length %]<h4>[% service1 | html %]</h4>[% END %]
+                <br />
+            [% IF service2.length %]<h4>[% service2 | html %]</h4>[% END %]
+                <br />
+            [% IF service3.length %]<h4>[% service3 | html %]</h4>[% END %]
+                <br />
+            [% IF service4.length %]<h4>[% service4 | html %]</h4>[% END %]
+                <br />
+            [% IF service5.length %]<h4>[% service5 | html %]</h4>[% END %]
+                <br />
+        </div>
+        <div class="col-xs-4"></div>
+    </div>
+
+    <div class="footer">
+    <div class="col-xs-12">
+        <h5>
+            [% IF email.length %][% email | html %][% END %]
+            [% IF phone.length %][% phone | html %][% END %]
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </h5>
+    </div>
+
+</div>
+</body>
+</html>
