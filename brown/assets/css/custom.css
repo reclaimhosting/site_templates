@@ -1,0 +1,21 @@
+body {
+    background: url('../../assets/img/splash1.jpg');
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:black;
+}
+
+
+.jumbotron {
+
+    background-color:transparent !important;
+    margin-top: 20px;
+
+}
+
+.row {
+
+	margin-left: 70px;
+}

@@ -1,0 +1,38 @@
+body {
+    background: url('../../assets/img/splash6.jpg');
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:black;
+}
+
+
+.jumbotron {
+
+    text-align: center;
+    margin-top: 20px;
+    background-color: transparent !important;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px !important;
+    overflow:auto;
+}
+
+
+.row {
+
+    text-align: center;
+
+}
+
+.bottom-row {
+
+	text-align: center
+}
+
+.footer {
+
+    text-align: center;
+}
