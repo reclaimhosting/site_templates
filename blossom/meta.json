@@ -3,7 +3,8 @@
 		"id": "blossom",
 		"name": "Blossom",
 		"description": "Kingdom's Splash 7",
-		"preview_image_path": "/preview.png"
+    "preview_image_path": "/preview.png",
+    "version": "0.0.1"
 	},
 	"fields": [
 	{	

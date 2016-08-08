@@ -1,87 +1,75 @@
 {
-	"information": {
-		"id": "sword-bible",
-		"name": "Sword Bible Placeholder",
-		"description": "Kingdom's Splash 9",
-		"preview_image_path": "/preview.png"
-	},
-	"fields": [
-	{	
-	 "id": "organizationName",
-   	 "label": "Organization's Name",
-  	  "type": "text",
-   	 "placeholder": "Your Organization's Name"
-  	},
-  	{
-   	 "id":"contactName",
-   	 "label": "Contact Name",
-   	 "type": "text",
-   	 "placeholder": "Your Name"
- 	 },
-  	{	
-	 "id": "addr",
-   	 "label": "Address",
-  	  "type": "text",
-   	 "placeholder": "Your Organization's Address"
-  	},
-  	{	
-	 "id": "city",
-   	 "label": "City",
-  	  "type": "text",
-   	 "placeholder": "Your Organization's City"
-  	},
-  	{	
-	 "id": "state",
-   	 "label": "State",
-  	  "type": "text",
-   	 "placeholder": "Your Organization's State"
-  	},
-  	{	
-	 "id": "zip",
-   	 "label": "Zip Code",
-  	  "type": "text",
-   	 "placeholder": "Your Organization's Zip"
-  	},
-  	{	
-	 "id": "service1",
-   	 "label": "Service Time 1",
-  	  "type": "text",
-   	 "placeholder": "Sunday: 8am-10am"
-  	},
-  	{	
-	 "id": "service2",
-   	 "label": "Service Time 2",
-  	  "type": "text",
-   	 "placeholder": "Sunday: 8am-10am"
-  	},
-  	{	
-	 "id": "service3",
-   	 "label": "Service Time 3",
-  	  "type": "text",
-   	 "placeholder": "Sunday: 8am-10am"
-  	},
-  	{	
-	 "id": "service4",
-   	 "label": "Service Time 4",
-  	  "type": "text",
-   	 "placeholder": "Sunday: 8am-10am"
-  	},
-  	{	
-	 "id": "service5",
-   	 "label": "Service Time 5",
-  	  "type": "text",
-   	 "placeholder": "Sunday: 8am-10am"
-  	},
-  	{	
-	 "id": "email",
-   	 "label": "Email Address",
-  	  "type": "text",
-   	 "placeholder": "name@domain.com"
-  	},
- 	{
-   	 "id":"phone",
-   	 "label": "Phone Number",
-   	 "type": "text",
-   	 "placeholder": "555-555-5555"
- 	 }]
+    "information": {
+        "id": "sword-bible",
+        "name": "Sword Bible Placeholder",
+        "description": "Kingdom's Splash 9",
+        "preview_image_path": "/preview.png",
+        "version": "0.0.1"
+    },
+    "fields": [{
+        "id": "organizationName",
+        "label": "Organization's Name",
+        "type": "text",
+        "placeholder": "Your Organization's Name"
+    }, {
+        "id": "contactName",
+        "label": "Contact Name",
+        "type": "text",
+        "placeholder": "Your Name"
+    }, {
+        "id": "addr",
+        "label": "Address",
+        "type": "text",
+        "placeholder": "Your Organization's Address"
+    }, {
+        "id": "city",
+        "label": "City",
+        "type": "text",
+        "placeholder": "Your Organization's City"
+    }, {
+        "id": "state",
+        "label": "State",
+        "type": "text",
+        "placeholder": "Your Organization's State"
+    }, {
+        "id": "zip",
+        "label": "Zip Code",
+        "type": "text",
+        "placeholder": "Your Organization's Zip"
+    }, {
+        "id": "service1",
+        "label": "Service Time 1",
+        "type": "text",
+        "placeholder": "Sunday: 8am-10am"
+    }, {
+        "id": "service2",
+        "label": "Service Time 2",
+        "type": "text",
+        "placeholder": "Sunday: 8am-10am"
+    }, {
+        "id": "service3",
+        "label": "Service Time 3",
+        "type": "text",
+        "placeholder": "Sunday: 8am-10am"
+    }, {
+        "id": "service4",
+        "label": "Service Time 4",
+        "type": "text",
+        "placeholder": "Sunday: 8am-10am"
+    }, {
+        "id": "service5",
+        "label": "Service Time 5",
+        "type": "text",
+        "placeholder": "Sunday: 8am-10am"
+    }, {
+        "id": "email",
+        "label": "Email Address",
+        "type": "text",
+        "placeholder": "name@domain.com"
+    }, {
+        "id": "phone",
+        "label": "Phone Number",
+        "type": "text",
+        "placeholder": "555-555-5555"
+    }]
 }
