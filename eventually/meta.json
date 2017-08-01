@@ -1,0 +1,70 @@
+{
+  "information": {
+    "id": "eventually",
+    "name": "Eventually",
+    "description": "Calling Card with Animated Background photos",
+    "date": "2017-07-31",
+    "preview_image_path": "/preview.png"
+  },
+  "fields": [
+  {
+    "id": "fullName",
+    "label": "Full Name",
+    "type": "text",
+    "placeholder": "Your Name"
+  },
+  {
+    "id":"tagLine",
+    "label": "Tag Line",
+    "type": "textarea",
+    "placeholder": "Tag Line"
+  },
+  {
+    "id": "aboutTitle",
+    "label": "About Section Title",
+    "type": "text",
+    "placeholder": "About"
+  },
+  {
+    "id":"aboutBlurb",
+    "label": "Blurb",
+    "type": "textarea",
+    "placeholder": "Write everything you want about yourself."
+  },
+  {
+    "id": "emailAddress",
+    "label": "Email Address",
+    "type": "email",
+    "placeholder": "testemail@testemail.com"
+  },
+  {
+    "id": "facebookLink",
+    "label": "Facebook",
+    "type": "url",
+    "placeholder": "https://www.facebook.com/username"
+  },
+  {
+    "id": "twitterLink",
+    "label": "Twitter",
+    "type": "url",
+    "placeholder": "https://twitter.com/username"
+  },
+  {
+    "id": "linkedinLink",
+    "label": "LinkedIn",
+    "type": "url",
+    "placeholder": "https://www.linkedin.com/in/username"
+  },
+  {
+    "id": "instagramLink",
+    "label": "Instagram",
+    "type": "url",
+    "placeholder": "https://www.instagram.com/username"
+  },
+  {
+    "id": "google_analytics_key",
+    "label": "Google Analytics Tracker ID",
+    "type": "text",
+    "placeholder": "UA-34343-3"
+  }]
+}
