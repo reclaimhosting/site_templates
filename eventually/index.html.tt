@@ -42,8 +42,6 @@
 					</ul>
 				[% END %]
 				
-		<span class="copyright">[% IF fullName.length %]&copy; [% fullName | html %] &bull; [% END %]Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-				
 				<ul class="copyright">
 					[% IF fullName.length %<li>]&copy;  [% fullName | html %].</li>[% END %]
 					<li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
