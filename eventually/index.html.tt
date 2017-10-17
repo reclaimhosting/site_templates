@@ -43,7 +43,7 @@
 				[% END %]
 				
 				<ul class="copyright">
-					[% IF fullName.length %<li>]&copy;  [% fullName | html %].</li>[% END %]
+					[% IF fullName.length %]<li>&copy;  [% fullName | html %].</li>[% END %]
 					<li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</footer>
